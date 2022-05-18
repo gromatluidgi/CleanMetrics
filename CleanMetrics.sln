@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMetrics", "CleanMetrics\CleanMetrics.csproj", "{4FD992D9-AF3C-4029-8B15-CCBC0D3F0672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F81B8C7E-38C1-41DF-A6E2-5EF80558B72B}"
+	ProjectSection(SolutionItems) = preProject
+		MDD.md = MDD.md
+		README.md = README.md
+		SMM.md = SMM.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMetrics.Persistence.SQLite", "CleanMetrics.Persistence.SQLite\CleanMetrics.Persistence.SQLite.csproj", "{78543218-7F58-4500-9607-6DC0E1A3D668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMetrics.Persistence.InMemory", "CleanMetrics.Persistence.InMemory\CleanMetrics.Persistence.InMemory.csproj", "{63E3A93A-1A32-47D7-8930-01C5B444A146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMetrics.Persistence.LiteDB", "CleanMetrics.Persistence.LiteDB\CleanMetrics.Persistence.LiteDB.csproj", "{6E1FC793-046F-45BC-B54F-227256CEEE85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{98EDA898-EE2C-4B08-990D-68749926E5A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMetrics.Abstractions", "CleanMetrics.Abstractions\CleanMetrics.Abstractions.csproj", "{DF130DE8-A075-4544-8C05-3831B10B7D21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FD992D9-AF3C-4029-8B15-CCBC0D3F0672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD992D9-AF3C-4029-8B15-CCBC0D3F0672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD992D9-AF3C-4029-8B15-CCBC0D3F0672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD992D9-AF3C-4029-8B15-CCBC0D3F0672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78543218-7F58-4500-9607-6DC0E1A3D668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78543218-7F58-4500-9607-6DC0E1A3D668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78543218-7F58-4500-9607-6DC0E1A3D668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78543218-7F58-4500-9607-6DC0E1A3D668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E3A93A-1A32-47D7-8930-01C5B444A146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E3A93A-1A32-47D7-8930-01C5B444A146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E3A93A-1A32-47D7-8930-01C5B444A146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E3A93A-1A32-47D7-8930-01C5B444A146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1FC793-046F-45BC-B54F-227256CEEE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1FC793-046F-45BC-B54F-227256CEEE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1FC793-046F-45BC-B54F-227256CEEE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1FC793-046F-45BC-B54F-227256CEEE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF130DE8-A075-4544-8C05-3831B10B7D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF130DE8-A075-4544-8C05-3831B10B7D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF130DE8-A075-4544-8C05-3831B10B7D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF130DE8-A075-4544-8C05-3831B10B7D21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78543218-7F58-4500-9607-6DC0E1A3D668} = {98EDA898-EE2C-4B08-990D-68749926E5A1}
+		{63E3A93A-1A32-47D7-8930-01C5B444A146} = {98EDA898-EE2C-4B08-990D-68749926E5A1}
+		{6E1FC793-046F-45BC-B54F-227256CEEE85} = {98EDA898-EE2C-4B08-990D-68749926E5A1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EA824AD-81D6-4F3D-BD8C-81818F44C048}
+	EndGlobalSection
+EndGlobal
